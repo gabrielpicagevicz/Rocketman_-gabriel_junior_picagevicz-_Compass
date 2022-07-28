@@ -1,14 +1,7 @@
-let nome = 'Gabriel'; // string literal
-let idade = 21; // number literal
-let estaAprovado = true; //boolean 
-let sobrenome = undefined; //undefined
+// Arrays
 
-let pessoa = {
-    nome: 'Gabriel',
-    idade: 21,
-    estaAprovado: true,
-    segundoNome: 'Junior',
-    sobrenome: 'Picagevicz'
-};
-
-console.log(pessoa);
+let familia = [true, 22, 'gabriel', 16];
+console.log(familia.length);
+console.log(familia[2]);
+let nomeDoColega = ['Gabriel', 21, 'Braganey'];
+console.log(nomeDoColega);
