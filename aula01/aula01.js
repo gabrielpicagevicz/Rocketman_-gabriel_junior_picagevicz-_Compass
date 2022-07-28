@@ -1,13 +1,15 @@
-//Verbo + Substantivo
+// Realiza uma tarefa e não devolve nada.
+function dizerNome(){
+    console.log('gabriel');
+}
+dizerNome();
 
-let corSite = "azul";
+//retorna algo.
+function multiplicarPorDois(valor){
+    return valor * 2;
+}
 
-function resetaCor(cor, tonalidade){
-    corSite = cor + ' ' + tonalidade;
-};
+//console.log(multiplicarPorDois(2));
 
-console.log(corSite);
-resetaCor("verde", "claro");
-console.log(corSite);
-
-
+let resultado = multiplicarPorDois(5);
+console.log(resultado);
