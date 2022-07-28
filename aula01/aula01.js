@@ -1,5 +1,9 @@
-// Operadores Atribuicao
+// Operadores Igualdade
+// igual estrita
 
-let valorTecladoGamer = 100;
-valorTecladoGamer += valorTecladoGamer;
-console.log(valorTecladoGamer);
+console.log( 1 === 1 );
+console.log( 1 === '1' );
+
+//igualdade solta 
+console.log( 1 == 1);
+console.log( '1' == 1 );
