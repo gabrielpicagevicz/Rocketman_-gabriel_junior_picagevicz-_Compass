@@ -1,18 +1,5 @@
-// Operadores Aritiméticos(matemáticos)
-let salario = 100;
+// Operadores Atribuicao
 
-console.log (salario + salario);
-
-console.log (salario - salario);
-
-console.log (salario * salario);
-
-console.log (salario / salario);
-
-console.log (5 ** 5);
-
-//++ -- 
-
-let idade = 18;
-idade++;
-console.log(idade);
+let valorTecladoGamer = 100;
+valorTecladoGamer += valorTecladoGamer;
+console.log(valorTecladoGamer);
