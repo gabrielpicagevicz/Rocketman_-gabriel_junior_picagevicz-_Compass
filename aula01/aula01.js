@@ -1,15 +1,18 @@
-// Realiza uma tarefa e não devolve nada.
-function dizerNome(){
-    console.log('gabriel');
-}
-dizerNome();
+// Operadores Aritiméticos(matemáticos)
+let salario = 100;
 
-//retorna algo.
-function multiplicarPorDois(valor){
-    return valor * 2;
-}
+console.log (salario + salario);
 
-//console.log(multiplicarPorDois(2));
+console.log (salario - salario);
 
-let resultado = multiplicarPorDois(5);
-console.log(resultado);
+console.log (salario * salario);
+
+console.log (salario / salario);
+
+console.log (5 ** 5);
+
+//++ -- 
+
+let idade = 18;
+idade++;
+console.log(idade);
