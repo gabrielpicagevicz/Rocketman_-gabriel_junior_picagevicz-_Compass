@@ -1,9 +1,6 @@
-// Operadores Igualdade
-// igual estrita
+//Operador ternario 
+//Tem um cliente,  100 premium, comum
 
-console.log( 1 === 1 );
-console.log( 1 === '1' );
-
-//igualdade solta 
-console.log( 1 == 1);
-console.log( '1' == 1 );
+let pontos = 100;
+let tipos = pontos > 100 ? 'premium' : 'comum';
+console.log(tipos);
