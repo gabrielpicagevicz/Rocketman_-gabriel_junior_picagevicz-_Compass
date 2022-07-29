@@ -7,5 +7,4 @@ function maiorEntreNumeros(primeiro, segundo){
         return segundo;
     }  
 }
-
 console.log(maiorEntreNumeros(5,3));
