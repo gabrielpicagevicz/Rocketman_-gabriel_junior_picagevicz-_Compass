@@ -1,7 +1,5 @@
 //Mini Projeto 13 - Objeto Postagem de Blog
 
-
-
 let postagem = {
   titulo: 'Livro Abel Ferreira',
   mensagem: 'Livro muito bom!',
