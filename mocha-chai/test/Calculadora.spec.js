@@ -21,3 +21,17 @@ describe("Testes de subtração", () => {
     expect(resultado).to.be.eq(-1);
   });
 });
+
+describe("Testes de Multiplicação", () => {
+    it("Deve subtrair 3 e 5 resultando em 15", () => {
+      let resultado = Calculadora.mult(3, 5);
+      expect(resultado).to.be.eq(15);
+    });
+});
+
+describe("Testes de Divisão", () => {
+    it("Deve subtrair 10 por 2 resultando em 5", () => {
+      let resultado = Calculadora.div(10, 2);
+      expect(resultado).to.be.eq(5);
+    });
+});
