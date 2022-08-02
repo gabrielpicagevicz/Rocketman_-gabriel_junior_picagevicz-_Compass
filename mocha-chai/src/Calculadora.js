@@ -13,5 +13,4 @@ export default class Calculadora {
     static div(a, b){
         return a / b;
     }
-    
 }

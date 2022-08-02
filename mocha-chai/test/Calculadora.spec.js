@@ -1,37 +1,59 @@
 import assert from "assert";
 import chai from "chai";
 import Calculadora from "../src/Calculadora.js";
+
 const expect = chai.expect;
 
-describe("Testes de Soma", () => {
-  it("Deve somar 4 e 5 resultando em 9", () => {
-    let resultado = Calculadora.soma(4, 5);
-    expect(resultado).to.be.eq(9);
-  });
-
-  it("Deve somar -4 e 5 resultando em 1", () => {
-    let resultado = Calculadora.soma(-4, 5);
-    expect(resultado).to.be.eq(1);
-  });
-});
-
-describe("Testes de subtração", () => {
-  it("Deve subtrair 4 e 5 resultando em -1", () => {
-    let resultado = Calculadora.sub(4, 5);
-    expect(resultado).to.be.eq(-1);
-  });
-});
-
-describe("Testes de Multiplicação", () => {
-    it("Deve subtrair 3 e 5 resultando em 15", () => {
-      let resultado = Calculadora.mult(3, 5);
-      expect(resultado).to.be.eq(15);
+//Smoke Test (testar metodos);
+describe("Smoke Tests - (metodos)", () => {
+  describe("Smoke Tests - Soma", () => {
+    it("Espero que a `soma` seja uma função", () => {
+      expect(Calculadora.soma).to.be.a("function");
     });
+  });
+
+  describe("Smoke Tests - Subtração", () => {
+    it("Espero que a `sub` seja uma função", () => {
+      expect(Calculadora.sub).to.be.a("function");
+    });
+  });
+
+  describe("Smoke Tests - Multiplicação", () => {
+    it("Espero que a `mult` seja uma função", () => {
+      expect(Calculadora.mult).to.be.a("function");
+    });
+  });
+
+  describe("Smoke Tests - Divisão", () => {
+    it("Espero que a `div` seja uma função", () => {
+      expect(Calculadora.div).to.be.a("function");
+    });
+  });
 });
 
-describe("Testes de Divisão", () => {
-    it("Deve subtrair 10 por 2 resultando em 5", () => {
-      let resultado = Calculadora.div(10, 2);
-      expect(resultado).to.be.eq(5);
+//Calculadora
+describe("Calculadora", () => {
+  describe("Calculadora - Soma", () => {
+    it("Deve retornar 9 quando a soma(4,5)", () => {
+      expect(Calculadora.soma(4, 5)).to.be.eq(9);
     });
+  });
+
+  describe("Calculadora - Subtração", () => {
+    it("Deve retornar 5 quando sub(10,5)", () => {
+      expect(Calculadora.sub(10, 5)).to.be.eq(5);
+    });
+  });
+
+  describe("Calculadora - Multiplicação", () => {
+    it("Deve retornar 15 quando mult(3,5)", () => {
+      expect(Calculadora.mult(3, 5)).to.be.eq(15);
+    });
+  });
+
+  describe("Calculadora - Divisão", () => {
+    it("Deve retornar 5 quando div(10,2)", () => {
+      expect(Calculadora.div(10, 2)).to.be.eq(5);
+    });
+  });
 });
