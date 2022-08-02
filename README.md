@@ -9,3 +9,13 @@ Repositório responsável pelos exercicios realizados durante a **Sprint 4 - Jav
 - Mocha.Js v. 8.1.2
 - Chai.Js v. 8.1.2
 - Conceitos de TDD (Test Drive Development);
+
+### Pre-Requisitos
+
+Antes de instalar as dependências no projeto, você precisa já ter instalado na sua máquina:
+* **VSCode**: Caso não tenha, basta realizar o download [Aqui](https://code.visualstudio.com/download)
+* **Node.Js**: Caso não tenha, basta realizar o download [Aqui](https://nodejs.org/en/)
+
+```
+npm install -g mocha
+```
