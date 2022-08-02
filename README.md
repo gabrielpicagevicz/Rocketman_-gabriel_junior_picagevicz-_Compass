@@ -12,7 +12,7 @@ Repositório responsável pelos exercicios realizados durante a **Sprint 4 - Jav
 
 ### Pre-Requisitos
 
-Antes de instalar as dependências no projeto, você precisa já ter instalado na sua máquina:
+Antes de iniciarmos, é necessário já ter instalado na sua máquina:
 * **VSCode**: Caso não tenha, basta realizar o download [Aqui](https://code.visualstudio.com/download)
 * **Node.Js**: Caso não tenha, basta realizar o download [Aqui](https://nodejs.org/en/)
 
