@@ -1,6 +1,6 @@
 ### Projeto Programa de Estágio - Compass.uol
 
-Repositório responsável pelos exercicios realizados durante a **Sprint 4 - Javascript e Versionamento de Código** e também o desafio final com o objetivo de criarmos uma calculadora seguindos os conceitos de TDD com Mocha e Chai .
+Repositório responsável pelos exercicios realizados durante a **Sprint 4 - Javascript e Versionamento de Código** e também o desafio final com o objetivo de criarmos uma calculadora seguindos os conceitos de TDD com Mocha e Chai.
 
 ## Recursos Utilizados no Desenvolvimento:
 
