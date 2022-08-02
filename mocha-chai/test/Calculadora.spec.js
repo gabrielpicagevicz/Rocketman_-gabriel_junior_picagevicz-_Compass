@@ -54,6 +54,10 @@ describe("Calculadora", () => {
     });
   });
 
-
+  describe("Calculadora - %", () => {
+    it("Deve retornar 60% de 1500 quando chamar o método porcentagem(60,1500)", () => {
+      expect(Calculadora.porcentagem(60,1500)).to.be.eq(900);
+    });
+  })
   
 });
