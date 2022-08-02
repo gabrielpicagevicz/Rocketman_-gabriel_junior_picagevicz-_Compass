@@ -36,6 +36,18 @@ describe("Calculadora", () => {
     });
   });
 
+  describe("Calculadora - Calcular Circuferencia", () => {
+    it("Deve retornar 62.83185307179586 quando calculateCircumference(10)", () => {
+      expect(Calculadora.calculateCircumference(10)).to.be.eq(62.83185307179586);
+    });
+  });
 
+  describe("Calculadora - PI", () => {
+    it("Deve retornar 3.141592653589793 quando chamar o método Math.PI", () => {
+      expect(Calculadora.mathPi()).to.be.eq(3.141592653589793);
+    });
+  });
+
+  
 
 });

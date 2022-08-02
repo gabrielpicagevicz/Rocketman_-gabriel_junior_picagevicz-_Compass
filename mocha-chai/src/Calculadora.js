@@ -18,4 +18,16 @@ export default class Calculadora {
        return Math.sqrt(a);
     }
 
+    static calculateCircumference(radius) {
+        return 2 * Math.PI * radius;
+        //metodo visto em:
+        //https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/PI
+    }
+
+    static mathPi(){
+        return Math.PI;
+    }
+
+    
+
 }
