@@ -38,4 +38,11 @@ Para a execução dos testes criados para a **Calculadora**:
 Clique com o botão direito sobre a Classe: **Calculadora.spec.js** em sequência selecione "**Abrir no terminal integrado**"
 ![image](https://user-images.githubusercontent.com/86580943/182478039-2f2885bf-f6a1-4282-a714-91023208877d.png)
 
+Ao abrir o terminal para a execução do programa digite o seguinte comando:
+```
+npm test
+```
+
+
+
 
