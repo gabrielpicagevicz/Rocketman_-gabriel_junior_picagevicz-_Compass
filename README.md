@@ -45,6 +45,13 @@ npm test
 Segue imagem retorno esperado:
 ![image](https://user-images.githubusercontent.com/86580943/182478828-fab28634-24d5-4a51-a42e-9640ff598af7.png)
 
+### Execução dos Exercicios
+Será necessário instalar a seguinte extensão no VSCode:
+```
+Code Runner
+```
+* **Code Runner**: Caso prefira, basta permitir abrir o VSCode através do navegador [Aqui](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+
 
 
 
