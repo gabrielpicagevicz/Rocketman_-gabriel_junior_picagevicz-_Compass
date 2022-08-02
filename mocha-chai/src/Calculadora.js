@@ -13,4 +13,9 @@ export default class Calculadora {
     static div(a, b){
         return a / b;
     }
+
+    static raiz(a){
+       return Math.sqrt(a);
+    }
+
 }

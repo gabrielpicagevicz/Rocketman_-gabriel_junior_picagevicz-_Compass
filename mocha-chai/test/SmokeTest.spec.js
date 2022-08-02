@@ -5,7 +5,7 @@ import Calculadora from "../src/Calculadora.js";
 const expect = chai.expect;
 
 //Smoke Test (testar metodos);
-describe("Smoke Tests - (metodos)", () => {
+/* describe("Smoke Tests - (metodos)", () => {
   describe("Smoke Tests - Soma", () => {
     it("Espero que a `soma` seja uma função", () => {
       expect(Calculadora.soma).to.be.a("function");
@@ -30,3 +30,4 @@ describe("Smoke Tests - (metodos)", () => {
     });
   });
 });
+ */

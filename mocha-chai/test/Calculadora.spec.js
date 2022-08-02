@@ -29,4 +29,13 @@ describe("Calculadora", () => {
       expect(Calculadora.div(10, 2)).to.be.eq(5);
     });
   });
+
+  describe("Calculadora - Raiz", () => {
+    it("Deve retornar 1.4142135623730951 quando raiz(2)", () => {
+      expect(Calculadora.raiz(2)).to.be.eq(1.4142135623730951);
+    });
+  });
+
+
+
 });
