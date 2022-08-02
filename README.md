@@ -17,7 +17,7 @@ Antes de iniciarmos, é necessário já ter instalado na sua máquina:
 * **Node.Js**: Caso não tenha, basta realizar o download [Aqui](https://nodejs.org/en/)
 * **Git**: Caso não tenha, basta realizar o download [Aqui](https://git-scm.com/downloads)
 
-### Execução dos Exercicios e Calculadora com Mocha e Chai
+### Execução da Calculadora com Mocha e Chai
 Crie uma pasta em seu computador e clone o repositório.
 
 ```
@@ -42,6 +42,8 @@ Ao abrir o terminal para a execução do programa digite o seguinte comando:
 ```
 npm test
 ```
+Segue imagem retorno esperado:
+![image](https://user-images.githubusercontent.com/86580943/182478828-fab28634-24d5-4a51-a42e-9640ff598af7.png)
 
 
 
