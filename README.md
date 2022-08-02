@@ -53,6 +53,7 @@ Code Runner
 * **Code Runner**: Caso prefira, basta permitir abrir o VSCode através do navegador [Aqui](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 Ao instalar, selecione o **exercicio.js** desejado e clique com o botão direito e aperte "Run Code", irá mostrar no terminal o resultado.
+
 ![image](https://user-images.githubusercontent.com/86580943/182480966-8dafdbc9-55d3-4ddf-8d82-1f5fff46e3c6.png)
 
 --
@@ -63,8 +64,11 @@ Live Server
 ```
 * **Code Runner**: Caso prefira, basta permitir abrir o VSCode através do navegador [Aqui](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-Ao instalar, selecione o **home.html** do exercicio desejado e clique com o botão direito e aperte "Open with Live Server", irá mostrar no terminal o resultado.
+Ao instalar, selecione o **home.html** do exercicio desejado e clique com o botão direito e aperte "Open with Live Server".
+
 ![image](https://user-images.githubusercontent.com/86580943/182481588-49cba229-6d2f-407b-a828-b18e430a6e6e.png)
+
+Em sequência irá abrir o navegador principal, pressione F12 e clique em **Console**, lá irá mostrar o resultado.
 
 
 
