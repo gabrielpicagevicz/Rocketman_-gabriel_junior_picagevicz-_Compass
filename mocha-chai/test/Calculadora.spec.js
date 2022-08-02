@@ -36,6 +36,12 @@ describe("Calculadora", () => {
     });
   });
 
+  describe("Calculadora - Número ao quadrado", () => {
+    it("Deve retornar 81 quando numeroQuadrado(9)", () => {
+      expect(Calculadora.numeroQuadrado(9)).to.be.equals(81);
+    });
+  });
+
   describe("Calculadora - Calcular Circuferencia", () => {
     it("Deve retornar 62.83185307179586 quando calculateCircumference(10)", () => {
       expect(Calculadora.calculateCircumference(10)).to.be.eq(62.83185307179586);
@@ -48,6 +54,6 @@ describe("Calculadora", () => {
     });
   });
 
-  
 
+  
 });

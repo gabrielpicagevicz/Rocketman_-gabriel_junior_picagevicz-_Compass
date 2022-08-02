@@ -18,6 +18,10 @@ export default class Calculadora {
        return Math.sqrt(a);
     }
 
+    static numeroQuadrado(a){
+        return a * a;
+    }
+
     static calculateCircumference(radius) {
         return 2 * Math.PI * radius;
         //metodo visto em:
@@ -27,7 +31,24 @@ export default class Calculadora {
     static mathPi(){
         return Math.PI;
     }
+         
+    static bhaskara(a, b, c) {
+        var a = 44; 
+        var b = 44;
+        var c = -3;
 
+        var ret = [];
+        var d = delta(a, b, c);
+        ret[0] = ((b * -1) - Math.sqrt(d)) / (2 * a);
+        ret[1] = ((b * -1) + Math.sqrt(d)) / (2 * a);
+        return ret;
+       
+        // calcula o delta separadamente
+        function delta(a, b, c) {
+            return Math.pow(b, 2) - (4 * a * c); 
+        }
+     }
+
+     
     
-
 }
