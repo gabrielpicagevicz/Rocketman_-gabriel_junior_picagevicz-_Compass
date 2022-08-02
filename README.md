@@ -15,7 +15,7 @@ Repositório responsável pelos exercicios realizados durante a **Sprint 4 - Jav
 Antes de iniciarmos, é necessário já ter instalado na sua máquina:
 * **VSCode**: Caso não tenha, basta realizar o download [Aqui](https://code.visualstudio.com/download)
 * **Node.Js**: Caso não tenha, basta realizar o download [Aqui](https://nodejs.org/en/)
-* * **Git**: Caso não tenha, basta realizar o download [Aqui](https://git-scm.com/downloads)
+* **Git**: Caso não tenha, basta realizar o download [Aqui](https://git-scm.com/downloads)
 
 ### Execução dos Exercicios e Calculadora com Mocha e Chai
 Crie uma pasta em seu computador e clone o repositório.
@@ -28,3 +28,9 @@ Em sequência utilize o seguinte atalho para iniciar a IDE dentro da pasta com o
 ```
 Code .
 ```
+Ao iniciar a IDE com o projeto aberto, utilize o terminal integrado do VSCode e instale as duas bibliotecas necessárias para a execução do Projeto.
+```
+npm i -D mocha chai
+```
+![image](https://user-images.githubusercontent.com/86580943/182476461-4f74f8fb-d3e3-4656-b15f-cacb1975b119.png)
+
