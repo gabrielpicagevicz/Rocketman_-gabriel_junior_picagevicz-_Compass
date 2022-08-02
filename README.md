@@ -15,7 +15,16 @@ Repositório responsável pelos exercicios realizados durante a **Sprint 4 - Jav
 Antes de iniciarmos, é necessário já ter instalado na sua máquina:
 * **VSCode**: Caso não tenha, basta realizar o download [Aqui](https://code.visualstudio.com/download)
 * **Node.Js**: Caso não tenha, basta realizar o download [Aqui](https://nodejs.org/en/)
+* * **Git**: Caso não tenha, basta realizar o download [Aqui](https://git-scm.com/downloads)
+
+### Execução dos Exercicios e Calculadora com Mocha e Chai
+Crie uma pasta em seu computador e clone o repositório.
 
 ```
-npm install -g mocha
+git clone https://github.com/gabrielpicagevicz/Rocketman_gabriel_junior_picagevicz_Compass.git
+```
+Em sequência utilize o seguinte atalho para iniciar a IDE dentro da pasta com o repositorio clonado. 
+
+```
+Code .
 ```
