@@ -34,3 +34,8 @@ npm i -D mocha chai
 ```
 ![image](https://user-images.githubusercontent.com/86580943/182476461-4f74f8fb-d3e3-4656-b15f-cacb1975b119.png)
 
+Para a execução dos testes criados para a **Calculadora**: 
+Clique com o botão direito sobre a Classe: **Calculadora.spec.js** em sequência selecione "**Abrir no terminal integrado**"
+![image](https://user-images.githubusercontent.com/86580943/182478039-2f2885bf-f6a1-4282-a714-91023208877d.png)
+
+
