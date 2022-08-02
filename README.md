@@ -46,11 +46,16 @@ Segue imagem retorno esperado:
 ![image](https://user-images.githubusercontent.com/86580943/182478828-fab28634-24d5-4a51-a42e-9640ff598af7.png)
 
 ### Execução dos Exercicios
-Será necessário instalar a seguinte extensão no VSCode:
+É possível executar os exercicios de duas maneiras vou mostrar a maneira mais simples primeiro, nesse caso será necessário instalar a seguinte extensão no VSCode:
 ```
 Code Runner
 ```
 * **Code Runner**: Caso prefira, basta permitir abrir o VSCode através do navegador [Aqui](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+Ao instalar, selecione o exercicio desejado e clique com o botão direito e aperte "Run Code", irá mostrar no terminal o resultado.
+![image](https://user-images.githubusercontent.com/86580943/182480966-8dafdbc9-55d3-4ddf-8d82-1f5fff46e3c6.png)
+
+
+
 
 
 
