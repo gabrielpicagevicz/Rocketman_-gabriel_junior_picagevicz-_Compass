@@ -1,1 +1,1 @@
-### Projeto para programa de Estágio - Compass.uol
+### Projeto Programa de Estágio - Compass.uol
