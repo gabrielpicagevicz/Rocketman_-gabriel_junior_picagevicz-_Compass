@@ -20,7 +20,7 @@ const expect = chai.expect;
   
   describe("Smoke Tests - Multiplicação", () => {
     it("Espero que a `mult` seja uma função", () => {
-      expect(Calculadora.calcularMultiplicao).to.be.a("function");
+      expect(Calculadora.calcularMultiplicacao).to.be.a("function");
     });
   });
 /*

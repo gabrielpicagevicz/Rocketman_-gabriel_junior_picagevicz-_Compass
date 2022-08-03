@@ -7,7 +7,7 @@ export default class Calculadora {
         return a - b;
     }
 
-    static calcularMultiplicao(a, b){
+    static calcularMultiplicacao(a, b){
         return a * b;
     }
     
