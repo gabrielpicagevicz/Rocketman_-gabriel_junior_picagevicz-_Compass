@@ -8,7 +8,7 @@ const expect = chai.expect;
 describe("Calculadora", () => {
   describe("Calculadora - Soma", () => {
     it("Deve retornar 9 quando a soma(4,5)", () => {
-      expect(Calculadora.soma(4, 5)).to.be.eq(9);
+      expect(Calculadora.calcularSoma(4, 5)).to.be.eq(9);
     });
   });
 

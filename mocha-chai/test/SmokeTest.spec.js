@@ -5,14 +5,14 @@ import Calculadora from "../src/Calculadora.js";
 const expect = chai.expect;
 
 //Smoke Test (testar metodos);
-/* describe("Smoke Tests - (metodos)", () => {
+ describe("Smoke Tests - (metodos)", () => {
   describe("Smoke Tests - Soma", () => {
     it("Espero que a `soma` seja uma função", () => {
-      expect(Calculadora.soma).to.be.a("function");
+      expect(Calculadora.calcularSoma).to.be.a("function");
     });
   });
 
-  describe("Smoke Tests - Subtração", () => {
+ /*  describe("Smoke Tests - Subtração", () => {
     it("Espero que a `sub` seja uma função", () => {
       expect(Calculadora.sub).to.be.a("function");
     });
@@ -28,6 +28,5 @@ const expect = chai.expect;
     it("Espero que a `div` seja uma função", () => {
       expect(Calculadora.div).to.be.a("function");
     });
-  });
-});
- */
+  });*/
+}); 
