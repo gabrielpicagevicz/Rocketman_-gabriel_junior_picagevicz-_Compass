@@ -51,5 +51,9 @@ export default class Calculadora {
     static hypot(a, b, c){
       return Math.hypot(a, b, c);
     }
-    
+
+    static areaTrianguloRetangulo(base, altura){
+        return ((base * altura) / 2);
+    }
+
 }

@@ -78,5 +78,9 @@ describe("Calculadora", () => {
     });
   })
 
-  
+  describe("Calculadora - Area do triangulo retangulo", () => {
+    it("Deve retornar 5 quando chamar o método areaTrianguloRetangulo(2,5)", () => {
+      expect(Calculadora.areaTrianguloRetangulo(2, 5)).to.be.eq(5);
+    });
+  })
 });

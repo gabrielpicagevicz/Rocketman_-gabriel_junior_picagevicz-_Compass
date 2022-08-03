@@ -1,6 +1,7 @@
 import assert from "assert";
 import chai from "chai";
 import Calculadora from "../src/Calculadora.js";
+import FizzBuzz from "../src/FizzBuzz.js";
 
 const expect = chai.expect;
 
@@ -75,6 +76,12 @@ const expect = chai.expect;
   describe("Smoke Tests - Hypot", () => {
     it("Espero que a funcao `hypot` seja uma funcao", () =>{
       expect(Calculadora.hypot).to.be.a("function");
+    })
+  })
+
+  describe("Smoke Tests - FizzBuzz", () => {
+    it("Espero que a funcao `FizzBuzz` seja uma funcao", () =>{
+      expect(FizzBuzz.fizzBuzz).to.be.a("function");
     })
   })
 
