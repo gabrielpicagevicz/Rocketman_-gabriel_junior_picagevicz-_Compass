@@ -42,7 +42,17 @@ const expect = chai.expect;
     })
   })
 
+  describe("Smoke Tests - Calcular Circurferencia", () => {
+    it("Espero que a funcao `calculateCircumference` seja uma funcao", () =>{
+      expect(Calculadora.calculateCircumference).to.be.a("function");
+    })
+  })
 
+  describe("Smoke Tests - PI", () => {
+    it("Espero que a funcao `mathPi` seja uma funcao", () =>{
+      expect(Calculadora.mathPi).to.be.a("function");
+    })
+  })
 
 
 
