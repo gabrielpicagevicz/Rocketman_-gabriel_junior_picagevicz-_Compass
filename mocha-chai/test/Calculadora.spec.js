@@ -55,9 +55,16 @@ describe("Calculadora", () => {
   });
 
   describe("Calculadora - %", () => {
-    it("Deve retornar 60% de 1500 quando chamar o método porcentagem(60,1500)", () => {
+    it("Deve retornar (900)60% de 1500 quando chamar o método porcentagem(60,1500)", () => {
       expect(Calculadora.porcentagem(60,1500)).to.be.eq(900);
     });
   })
+
+  describe("Calculadora - Tangente", () => {
+    it("Deve retornar 1.15782128235 de 4 quando chamar o método getTan(4)", () => {
+      expect(Calculadora.getTan(4)).to.be.eq(1.1578212823495777);
+    });
+  })
+
   
 });

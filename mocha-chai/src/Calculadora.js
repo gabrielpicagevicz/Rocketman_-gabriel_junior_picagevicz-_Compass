@@ -37,6 +37,10 @@ export default class Calculadora {
         aux = b / 100;
         return  aux * a;
     }
+
+    static getTan(a) {
+        return Math.tan(a);
+     }
          
     
 }
