@@ -11,7 +11,7 @@ export default class Calculadora {
         return a * b;
     }
     
-    static div(a, b){
+    static calcularDivisao(a, b){
         return a / b;
     }
 

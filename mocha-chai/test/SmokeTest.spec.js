@@ -23,10 +23,10 @@ const expect = chai.expect;
       expect(Calculadora.calcularMultiplicacao).to.be.a("function");
     });
   });
-/*
+
   describe("Smoke Tests - Divisão", () => {
     it("Espero que a `div` seja uma função", () => {
-      expect(Calculadora.div).to.be.a("function");
+      expect(Calculadora.calcularDivisao).to.be.a("function");
     });
-  });*/
+  });
 }); 

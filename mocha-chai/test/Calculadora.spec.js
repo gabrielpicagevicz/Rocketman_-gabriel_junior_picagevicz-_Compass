@@ -26,7 +26,7 @@ describe("Calculadora", () => {
 
   describe("Calculadora - Divisão", () => {
     it("Deve retornar 5 quando div(10,2)", () => {
-      expect(Calculadora.div(10, 2)).to.be.eq(5);
+      expect(Calculadora.calcularDivisao(10, 2)).to.be.eq(5);
     });
   });
 
