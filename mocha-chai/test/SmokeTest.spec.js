@@ -36,9 +36,15 @@ const expect = chai.expect;
     })
   })
 
+  describe("Smoke Tests - Numero ao quadrado", () => {
+    it("Espero que a funcao `numeroQuadrado` seja uma funcao", () =>{
+      expect(Calculadora.numeroQuadrado).to.be.a("function");
+    })
+  })
 
 
 
 
-  
+
+
 }); 
