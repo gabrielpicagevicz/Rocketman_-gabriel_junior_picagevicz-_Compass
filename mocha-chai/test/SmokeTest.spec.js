@@ -29,4 +29,16 @@ const expect = chai.expect;
       expect(Calculadora.calcularDivisao).to.be.a("function");
     });
   });
+
+  describe("Smoke Tests - Raiz Quadrada", () => {
+    it("Espero que a funcao `raiz` seja uma funcao", () =>{
+      expect(Calculadora.raiz).to.be.a("function");
+    })
+  })
+
+
+
+
+
+  
 }); 
