@@ -12,12 +12,12 @@ const expect = chai.expect;
     });
   });
 
- /*  describe("Smoke Tests - Subtração", () => {
+  describe("Smoke Tests - Subtração", () => {
     it("Espero que a `sub` seja uma função", () => {
-      expect(Calculadora.sub).to.be.a("function");
+      expect(Calculadora.calcularSubtracao).to.be.a("function");
     });
   });
-
+  /*
   describe("Smoke Tests - Multiplicação", () => {
     it("Espero que a `mult` seja uma função", () => {
       expect(Calculadora.mult).to.be.a("function");

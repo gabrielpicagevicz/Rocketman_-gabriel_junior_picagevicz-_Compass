@@ -2,8 +2,8 @@ export default class Calculadora {
     static calcularSoma(a, b){
         return a + b;
     }
-    
-    static sub(a, b){
+
+    static calcularSubtracao(a, b){
         return a - b;
     }
 

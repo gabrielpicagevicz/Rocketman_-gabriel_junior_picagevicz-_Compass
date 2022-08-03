@@ -14,7 +14,7 @@ describe("Calculadora", () => {
 
   describe("Calculadora - Subtração", () => {
     it("Deve retornar 5 quando sub(10,5)", () => {
-      expect(Calculadora.sub(10, 5)).to.be.eq(5);
+      expect(Calculadora.calcularSubtracao(10, 5)).to.be.eq(5);
     });
   });
 
