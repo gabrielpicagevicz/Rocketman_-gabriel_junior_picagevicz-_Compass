@@ -48,6 +48,8 @@ export default class Calculadora {
      }
      
 
-         
+    static hypot(a, b, c){
+      return Math.hypot(a, b, c);
+    }
     
 }

@@ -72,6 +72,12 @@ const expect = chai.expect;
     })
   })
 
+  describe("Smoke Tests - Hypot", () => {
+    it("Espero que a funcao `hypot` seja uma funcao", () =>{
+      expect(Calculadora.hypot).to.be.a("function");
+    })
+  })
+
 
 
 

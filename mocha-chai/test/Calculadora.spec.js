@@ -72,5 +72,11 @@ describe("Calculadora", () => {
     });
   })
 
+  describe("Calculadora - Hypot", () => {
+    it("Deve retornar 7.0710678118654755 quando chamar o método hypot(3,4,5)", () => {
+      expect(Calculadora.hypot(3, 4, 5)).to.be.eq(7.0710678118654755);
+    });
+  })
+
   
 });
