@@ -66,6 +66,12 @@ const expect = chai.expect;
     })
   })
 
+  describe("Smoke Tests - Cosseno", () => {
+    it("Espero que a funcao `Cosseno` seja uma funcao", () =>{
+      expect(Calculadora.getCosseno).to.be.a("function");
+    })
+  })
+
 
 
 

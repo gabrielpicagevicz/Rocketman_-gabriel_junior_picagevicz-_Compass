@@ -68,7 +68,7 @@ describe("Calculadora", () => {
 
   describe("Calculadora - Cosseno", () => {
     it("Deve retornar 0.5403023058681398 de 1 quando chamar o método getCos(1)", () => {
-      expect(Calculadora.getCost(1)).to.be.eq(0.5403023058681398);
+      expect(Calculadora.getCosseno(1)).to.be.eq(0.5403023058681398);
     });
   })
 

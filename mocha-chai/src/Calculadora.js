@@ -43,7 +43,7 @@ export default class Calculadora {
         return Math.tan(a);
      }
 
-     static getCost(a){
+     static getCosseno(a){
       return  Math.cos(a); 
      }
      
