@@ -54,6 +54,13 @@ const expect = chai.expect;
     })
   })
 
+  describe("Smoke Tests - Porcentagem", () => {
+    it("Espero que a funcao `Porcentagem` seja uma funcao", () =>{
+      expect(Calculadora.porcentagem).to.be.a("function");
+    })
+  })
+
+
 
 
 
