@@ -60,6 +60,12 @@ const expect = chai.expect;
     })
   })
 
+  describe("Smoke Tests - Tangente", () => {
+    it("Espero que a funcao `getTan` seja uma funcao", () =>{
+      expect(Calculadora.getTan).to.be.a("function");
+    })
+  })
+
 
 
 
