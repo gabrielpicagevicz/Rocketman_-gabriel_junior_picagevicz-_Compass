@@ -20,7 +20,7 @@ describe("Calculadora", () => {
 
   describe("Calculadora - Multiplicação", () => {
     it("Deve retornar 15 quando mult(3,5)", () => {
-      expect(Calculadora.mult(3, 5)).to.be.eq(15);
+      expect(Calculadora.calcularMultiplicao(3, 5)).to.be.eq(15);
     });
   });
 
