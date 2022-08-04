@@ -13,80 +13,82 @@ const expect = chai.expect;
     });
   });
 
-  describe("Smoke Tests - Subtração", () => {
+  describe("\nSmoke Tests - Subtração", () => {
     it("Espero que a `sub` seja uma função", () => {
       expect(Calculadora.calcularSubtracao).to.be.a("function");
     });
   });
   
-  describe("Smoke Tests - Multiplicação", () => {
+  describe("\nSmoke Tests - Multiplicação", () => {
     it("Espero que a `mult` seja uma função", () => {
       expect(Calculadora.calcularMultiplicacao).to.be.a("function");
     });
   });
 
-  describe("Smoke Tests - Divisão", () => {
+  describe("\nSmoke Tests - Divisão", () => {
     it("Espero que a `div` seja uma função", () => {
       expect(Calculadora.calcularDivisao).to.be.a("function");
     });
   });
 
-  describe("Smoke Tests - Raiz Quadrada", () => {
+  describe("\nSmoke Tests - Raiz Quadrada", () => {
     it("Espero que a funcao `raiz` seja uma funcao", () =>{
       expect(Calculadora.raiz).to.be.a("function");
     })
   })
 
-  describe("Smoke Tests - Numero ao quadrado", () => {
+  describe("\nSmoke Tests - Numero ao quadrado", () => {
     it("Espero que a funcao `numeroQuadrado` seja uma funcao", () =>{
       expect(Calculadora.numeroQuadrado).to.be.a("function");
     })
   })
 
-  describe("Smoke Tests - Calcular Circurferencia", () => {
+  describe("\nSmoke Tests - Calcular Circurferencia", () => {
     it("Espero que a funcao `calculateCircumference` seja uma funcao", () =>{
       expect(Calculadora.calculateCircumference).to.be.a("function");
     })
   })
 
-  describe("Smoke Tests - PI", () => {
+  describe("\nSmoke Tests - PI", () => {
     it("Espero que a funcao `mathPi` seja uma funcao", () =>{
       expect(Calculadora.mathPi).to.be.a("function");
     })
   })
 
-  describe("Smoke Tests - Porcentagem", () => {
+  describe("\nSmoke Tests - Porcentagem", () => {
     it("Espero que a funcao `Porcentagem` seja uma funcao", () =>{
       expect(Calculadora.porcentagem).to.be.a("function");
     })
   })
 
-  describe("Smoke Tests - Tangente", () => {
+  describe("\nSmoke Tests - Tangente", () => {
     it("Espero que a funcao `getTan` seja uma funcao", () =>{
       expect(Calculadora.getTan).to.be.a("function");
     })
   })
 
-  describe("Smoke Tests - Cosseno", () => {
+  describe("\nSmoke Tests - Cosseno", () => {
     it("Espero que a funcao `Cosseno` seja uma funcao", () =>{
       expect(Calculadora.getCosseno).to.be.a("function");
     })
   })
 
-  describe("Smoke Tests - Hypot", () => {
+  describe("\nSmoke Tests - Hypot", () => {
     it("Espero que a funcao `hypot` seja uma funcao", () =>{
       expect(Calculadora.hypot).to.be.a("function");
     })
   })
 
-  describe("Smoke Tests - FizzBuzz", () => {
+  describe("\nSmoke Tests - FizzBuzz", () => {
     it("Espero que a funcao `FizzBuzz` seja uma funcao", () =>{
       expect(FizzBuzz.fizzBuzz).to.be.a("function");
     })
   })
 
-
-
-
+  describe("\nSmoke Tests - Exponenciacao", () => {
+    it("Espero que a funcao `exponenciacao` seja uma funcao", () =>{
+      expect(Calculadora.exponenciacao).to.be.a("function");
+    })
+  })
 
 }); 

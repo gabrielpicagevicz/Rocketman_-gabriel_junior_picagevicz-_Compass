@@ -4,11 +4,11 @@ export default class Calculadora {
     }
 
     static calcularSubtracao(a, b){
-        return a - b;
+        return (a) - b;
     }
 
     static calcularMultiplicacao(a, b){
-        return a * b;
+        return (a) * (b);
     }
     
     static calcularDivisao(a, b){
@@ -56,6 +56,9 @@ export default class Calculadora {
         return ((base * altura) / 2);
     }
 
+    static exponenciacao(a, b){
+        return a ** b;
+    }
 
   
 
