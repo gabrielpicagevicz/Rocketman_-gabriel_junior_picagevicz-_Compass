@@ -56,4 +56,7 @@ export default class Calculadora {
         return ((base * altura) / 2);
     }
 
+
+  
+
 }

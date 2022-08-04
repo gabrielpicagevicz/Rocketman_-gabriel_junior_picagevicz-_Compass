@@ -10,6 +10,19 @@ describe("Calculadora", () => {
     it("Deve retornar 9 quando a soma(4,5)", () => {
       expect(Calculadora.calcularSoma(4, 5)).to.be.eq(9);
     });
+
+    it("Deve retornar -4 quando a soma(-2,-2)", () => {
+      expect(Calculadora.calcularSoma(-2, -2)).to.be.eq(-4);
+    });
+
+    it("Deve retornar -5,1 quando a soma(-2,-3,1)", () => {
+      expect(Calculadora.calcularSoma(-2, -3,1)).to.be.equals(-5,1);
+    });
+
+    it("Deve retornar -5,1 quando a soma(-2,7)", () => {
+      expect(Calculadora.calcularSoma(-2, 7)).to.be.equals(5);
+    });
+    
   });
 
   describe("Calculadora - Subtração", () => {
@@ -83,4 +96,5 @@ describe("Calculadora", () => {
       expect(Calculadora.areaTrianguloRetangulo(2, 5)).to.be.eq(5);
     });
   })
+
 });
