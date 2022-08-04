@@ -118,4 +118,13 @@ describe("Calculadora", () => {
     });
   })
 
+  describe("\nCalculadora - Bhaskara", () => {
+    it("Deve retornar `Para Delta negativo, não existem raízes reais` quando chamar o método bhaskara(2,2,2)", () => {
+      expect(Calculadora.bhaskara(2,2,2)).to.have.equals("Para Delta negativo, não existem raízes reais");
+    });
+    it("Deve retornar 0.1258336669336003 e 2.207499666399733 quando chamar o método bhaskara(-3,7,5)", () => {
+      expect(Calculadora.bhaskara(-3,7,5)).to.have.members([-0.5733844181517584,2.906717751485092]);
+    });
+  })
+
 });

@@ -91,4 +91,10 @@ const expect = chai.expect;
     })
   })
 
+  describe("\nSmoke Tests - Bhaskara", () => {
+    it("Espero que a funcao `exponenciacao` seja uma funcao", () =>{
+      expect(Calculadora.bhaskara).to.be.a("function");
+    })
+  })
+
 }); 
