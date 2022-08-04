@@ -68,7 +68,6 @@ export default class Calculadora {
     let coeficiente, coeficiente2;
 
     let delta = (b * b - 4 * a * c);
-
     if (delta < 0) {
       return "Para Delta negativo, não existem raízes reais";
     } else {
