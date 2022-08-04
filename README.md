@@ -74,7 +74,4 @@ Em sequência irá abrir o navegador principal, pressione F12 e clique em **Cons
 ### Referências e Créditos
 Canal Dev Aprender onde foi vista toda a sintaxe do JavaScript e retirados os exercícios -> [Aqui](https://youtu.be/i6Oi-YtXnAU) 
 
-Para a resolução do exercicio 12, utilizei o método encontrado no Stack Overflow, onde adaptei para o meu cenário: [Aqui](https://pt.stackoverflow.com/questions/291203/como-comparar-se-dois-objetos-javascript-são-iguais) 
-
-
 
